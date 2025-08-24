@@ -1,0 +1,57 @@
+<!-- Defense Framework Section -->
+<section id="defense-framework">
+    <h2 class="text-3xl md:text-4xl font-bold text-center mb-4">A Multi-Layered <span class="gradient-text">Defense Framework</span></h2>
+    <p class="text-center max-w-3xl mx-auto text-gray-700 font-medium mb-12">No single solution is sufficient. Safety must be a deeply integrated, "defense-in-depth" property of the system, addressed across four complementary layers.</p>
+
+    <div class="space-y-8">
+        <div class="card rounded-lg p-6 flex flex-col md:flex-row items-center gap-6">
+            <div class="defense-icon defense-icon-1">🔬</div>
+            <div>
+                <h3 class="text-2xl font-bold text-orange-700">Layer 1: Understand the Model</h3>
+                <p class="text-gray-800 mt-1">Focus on proactive evaluation and deep understanding. This includes adversarial red teaming to find flaws and mechanistic interpretability to reverse-engineer the model's "thought process" and detect deception.</p>
+            </div>
+        </div>
+
+        <div class="flex justify-center"><div class="text-4xl text-orange-400">↓</div></div>
+
+        <div class="card rounded-lg p-6 flex flex-col md:flex-row items-center gap-6">
+            <div class="defense-icon defense-icon-2">🕹️</div>
+            <div>
+                <h3 class="text-2xl font-bold text-orange-700">Layer 2: Control the Model</h3>
+                <p class="text-gray-800 mt-1">Implement real-time safeguards to monitor and constrain agent actions. This requires meaningful human oversight for critical decisions, runtime monitors to scan for dangerous reasoning, and strict information access controls.</p>
+            </div>
+        </div>
+        
+        <div class="card rounded-lg p-6 md:p-8 mt-8 border-2 border-orange-400">
+            <h3 class="text-2xl font-bold text-amber-600 mb-4 text-center">Vulnerability Spotlight: Adversarial "Jailbreaks"</h3>
+            <p class="text-center text-gray-800 max-w-3xl mx-auto mb-6">Research shows that safety alignment is brittle. By appending a specific, computer-generated string of characters to a harmful prompt, an attacker can bypass safety filters and force the model to generate dangerous content.</p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-2 text-center text-lg font-mono">
+                <div class="bg-gray-800 p-2 rounded-md text-red-400">Harmful Prompt</div>
+                <div class="text-2xl text-amber-500">+</div>
+                <div class="bg-gray-800 p-2 rounded-md text-yellow-400">Adversarial Suffix</div>
+                <div class="text-2xl text-gray-800 font-bold mx-2">→</div>
+                <div class="bg-gray-800 p-2 rounded-md text-red-400">Unsafe Output</div>
+            </div>
+        </div>
+
+        <div class="flex justify-center"><div class="text-4xl text-yellow-400">↓</div></div>
+
+        <div class="card rounded-lg p-6 flex flex-col md:flex-row items-center gap-6">
+            <div class="defense-icon defense-icon-3">🏛️</div>
+            <div>
+                <h3 class="text-2xl font-bold text-orange-700">Layer 3: Shape the Ecosystem</h3>
+                <p class="text-gray-800 mt-1">Establish systemic and governance-level safeguards. This involves responsible capability scaling, compute governance, and radical transparency among developers about risks and mitigation strategies.</p>
+            </div>
+        </div>
+
+        <div class="flex justify-center"><div class="text-4xl text-orange-500">↓</div></div>
+
+        <div class="card rounded-lg p-6 flex flex-col md:flex-row items-center gap-6">
+            <div class="defense-icon defense-icon-4">🤖</div>
+            <div>
+                <h3 class="text-2xl font-bold text-orange-700">Layer 4: Make AI Solve It</h3>
+                <p class="text-gray-800 mt-1">Leverage AI to address the problem of scalable oversight. Use highly controlled "supervisor AIs" to monitor more powerful agents at machine speed, augmenting our limited human capacity to audit and verify their behavior.</p>
+            </div>
+        </div>
+    </div>
+</section>

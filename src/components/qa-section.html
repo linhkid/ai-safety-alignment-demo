@@ -1,0 +1,13 @@
+<!-- Q&A Section -->
+<section id="gemini-qa">
+    <h2 class="text-3xl md:text-4xl font-bold text-center mb-4">Ask the AI: <span class="gradient-text">Explore Deeper</span></h2>
+    <p class="text-center max-w-3xl mx-auto text-gray-700 font-medium mb-12">Have a question about Agentic AI, alignment, or safety? Ask here to get a concise explanation based on the information in this infographic.</p>
+    <div class="card rounded-lg p-6 md:p-8 max-w-3xl mx-auto">
+        <div class="flex flex-col sm:flex-row gap-4">
+            <input type="text" id="qaInput" placeholder="e.g., What is an adversarial attack?" class="form-input w-full">
+            <button id="qaBtn" class="gemini-button text-black font-bold py-2 px-6 rounded-md w-full sm:w-auto flex-shrink-0">Ask</button>
+        </div>
+        <div id="qaResult" class="result-box min-h-[120px]">Your answer will appear here...</div>
+        <div id="qaLoader" class="hidden justify-center items-center mt-6"><div class="loader"></div></div>
+    </div>
+</section>
