@@ -9,10 +9,16 @@
     "build": "echo 'No build step required for static HTML'",
     "preview": "npx serve src -p 4173"
   },
-  "keywords": ["ai-safety", "alignment", "demonstration", "agentic-ai"],
+  "keywords": [
+    "ai-safety",
+    "alignment",
+    "demonstration",
+    "agentic-ai"
+  ],
   "author": "Linh Nguyen",
   "license": "MIT",
   "dependencies": {
-    "serve": "^14.2.1"
+    "serve": "^10.0.2",
+    "@anthropic-ai/sdk": "^0.28.0"
   }
 }

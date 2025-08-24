@@ -87,11 +87,11 @@ class AppLoader {
     // Initialize API integration
     initializeAPI() {
         try {
-            if (window.GeminiAPI) {
-                new window.GeminiAPI();
-                console.log('API integration initialized successfully');
+            if (window.MultiModelAPI) {
+                new window.MultiModelAPI();
+                console.log('Multi-model API integration initialized successfully');
             } else {
-                console.error('GeminiAPI not available');
+                console.error('MultiModelAPI not available');
             }
         } catch (error) {
             console.error('Error initializing API:', error);
